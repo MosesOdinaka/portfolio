@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/certificate",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/",
+      "dest": "/index.html"
+    }
+  ]
+}
