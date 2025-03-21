@@ -4,13 +4,24 @@ export default function Home() {
   return (
     <main>
       <section className="header">
-        <h1>Iriele Odinaka Moses</h1>
-        <p>Full-Stack Engineer | Backend Specialist</p>
-        <div className="contact-bar">
-          <a href="mailto:iriele.moses@gmail.com">📧 Email</a>
-          <a href="tel:+2348188665524">📱 +234 818 866 5524</a>
-          <a href="https://github.com/MosesOdinaka">🐙 GitHub</a>
-          <a href="https://linkedin.com/in/odinakamoses">💼 LinkedIn</a>
+        <div className="profile-container">
+          <div className="profile-photo">
+            <img 
+              src={`${process.env.PUBLIC_URL}/assets/profile-photo.jpg`} 
+              alt="Iriele Odinaka Moses" 
+              className="profile-image"
+            />
+          </div>
+          <div className="profile-info">
+            <h1>Iriele Odinaka Moses</h1>
+            <p>Full-Stack Engineer | Backend Specialist</p>
+            <div className="contact-bar">
+              <a href="mailto:iriele.moses@gmail.com">📧 Email</a>
+              <a href="tel:+2348188665524">📱 +234 818 866 5524</a>
+              <a href="https://github.com/MosesOdinaka">🐙 GitHub</a>
+              <a href="https://linkedin.com/in/odinakamoses">💼 LinkedIn</a>
+            </div>
+          </div>
         </div>
       </section>
       <section className="section">
