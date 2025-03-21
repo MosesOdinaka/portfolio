@@ -1,10 +1,12 @@
 // components/Certificate.js
+import React from 'react';
+
 export default function Certificate() {
   return (
     <div className="section">
       <h2>ALX Certification</h2>
       <img 
-        src="/17-short-specializations-certificate-odinaka-iriele.png" 
+        src={process.env.PUBLIC_URL + '/certificate-thumb.jpg'} 
         alt="Software Engineering Certificate" 
         style={{ maxWidth: '100%' }}
       />
