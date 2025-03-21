@@ -6,7 +6,7 @@ export default function Certificate() {
     <div className="section">
       <h2>ALX Certification</h2>
       <img 
-        src={process.env.PUBLIC_URL + '/certificate-thumb.jpg'} 
+        src={process.env.PUBLIC_URL + '/certificate-thumb.png'} 
         alt="Software Engineering Certificate" 
         style={{ maxWidth: '100%' }}
       />
